@@ -1,0 +1,334 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/95254.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    
+}
+
+.cabecera{
+    display: grid;
+    grid-template-columns: 5% 95%;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.logo{
+    height: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding: 10px;       
+}
+
+.titulo{
+    display: grid;
+    justify-items: center;
+    font-size: 23px;
+    color: mediumvioletred;
+    padding-right: 100px;
+    margin-left: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}   
+
+.frase{
+    grid-column: 1/4;
+    display: grid;
+    font-size: 18px;    
+    color: aliceblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*estilo para titulo, frase(slogan), info pagina*/
+
+h2{
+    margin-top: 10px;
+}
+
+
+h2 b{
+    text-align:center;
+    color: aliceblue;
+}
+
+
+h3{
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+h3 b{
+    color:mediumvioletred;
+}
+
+
+/*  barra navegacion que tienen todas las paginas */
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 60px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.links a{
+    color: black;
+}
+
+a:hover{
+    cursor: pointer;
+    color: mediumvioletred
+}
+
+/* pagina principal */
+.info{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: rgb(202, 6, 137);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.pagina{
+    grid-template-columns: 50% 40%;
+    display: grid;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 17px;
+    align-items: center;
+}
+
+.descripcion{
+    color: aliceblue;
+    align-items: center;
+}
+
+.descripcionDos{
+    color: aliceblue;
+    justify-content: center;
+    
+    align-items: center;
+    
+}
+
+.containerUno{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content:space-around;
+    
+}
+
+.navegacion{
+    display: flex;
+    height: 45rem;
+    width: 19rem;
+    color:black;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    justify-content:space-around ;    
+}
+
+.pages {
+    color:aliceblue;
+    width:150px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.p2{
+    display: flex;
+    height: 45rem;
+    width: 19rem;
+    color:black;
+    flex-direction: column;
+    font-size: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.bar{
+    display: flex;
+    height: 200px;
+    width: 270px;
+    
+}
+
+/* Pagina Bebidas */
+.containerDos{
+    display:grid;
+    grid-template-columns: 25% 25% 40%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10%;
+    height: 960px;
+    margin: 5px;
+    padding:10px;
+    flex-flow: wrap;
+}
+.menu{
+    display: grid;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin:10px;
+    background-image: url(https://i.pinimg.com/474x/4d/dd/43/4ddd4348f7ea5a88948f4e9b32dfb678.jpg);
+    background-position:center;
+    background-size: cover; 
+   
+}
+
+.bebida{
+    
+    display: grid;
+    grid-template-columns:55% ;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin:10px;
+    padding-right: 40px;
+    background-image: url(https://i.pinimg.com/474x/4d/dd/43/4ddd4348f7ea5a88948f4e9b32dfb678.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.cerveza{
+    
+    display: grid;
+    grid-column: 3/5;
+    grid-row: 1/11;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.corona{
+    height: 400px;
+    width: 90%;
+    margin-left: 30px;
+    height: 410px;
+   
+}
+
+/*pagina playlist*/
+
+.row{
+    margin-bottom: 70px;
+}
+
+.col-6{
+    font-size: 10px;
+    
+}
+
+.cover {
+    height: 150px;
+    width: 145px;
+}
+
+.musica{
+    color:aliceblue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.coverDos{
+    margin-top: 33px;
+    height: 180px;
+}
+
+footer{
+    margin-top: 40px;
+    color: beige;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+}
+
+/*pagina momentos*/
+.momentos{
+    background-color:mediumvioletred;
+    color:black
+ }
+ .momentos1{
+    background-color:rgb(53, 51, 51)
+ }
+ 
+ .noches{
+    display: flex;
+    justify-content: center;
+    height: 180px;
+}
+
+
+.fotos{
+    display: flex;
+    height: 210px;
+    width: 255px;
+}
+span p{
+    text-align: center;
+    color:aliceblue
+}
+
+/*Pagina Wano Us*/
+i p{
+    text-align: center;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.nosotros{
+    display: flex;
+    justify-content: center;
+}
+
+
+.preguntas{
+    background-color: rgb(152, 146, 146);
+    justify-content: center;
+}
+
+h4{
+    color: mediumvioletred;
+    text-align: center; 
+    font-size: 130%;
+}
+
+.pictures{
+  display: flex;
+  justify-content:center;
+  margin: 10px;
+  margin-bottom: 25px;
+  
+}
+
+
+.cover{
+    width: 145px;
+    height:135px;
+    
+    
+}
+/*para todas las paginas*/
+footer{
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+}
