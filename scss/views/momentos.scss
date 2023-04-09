@@ -1,0 +1,33 @@
+.momentos1{
+    background-color:$color-alterno;
+    color:$color-secundario;
+    i {
+        display: flex;
+        justify-content: center;
+     }
+}
+.momentos{
+    background-color:$color-principal;
+    color:$color-tres;
+    i{
+    display: flex;
+    justify-content: center;
+    }
+ }
+ .noches{
+    display: flex;
+    justify-content: center;
+    height: 230px;
+    & .fotos{
+        display: flex;
+        height: ($imagen-altura)-10;
+        width: ($imagen-ancho)-20;
+    }
+}
+
+span p{
+    text-align: center;
+    color:$color-cuatro;
+    margin-top: 55px;
+    
+}

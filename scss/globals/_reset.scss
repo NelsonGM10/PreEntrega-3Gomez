@@ -1,0 +1,88 @@
+body{
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1022/746/desktop-wallpaper-cool-black-and-white-aesthetic-black-and-white-cute-aesthetics.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;    
+}
+
+.cabecera{
+        display: grid;
+        grid-template-columns: 5% 90%;
+        margin-bottom: 5px;
+.logo{
+        height: 45px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        padding: 10px;
+        h2{
+            padding-bottom: 100px;
+        }    
+    }
+.titulo{
+        display: grid;
+        justify-items: center;
+        font-size: 23px;
+        color: $color-principal;
+        margin-left: 50px;
+        padding-right: 75px;
+        font-family:$titulo;
+        font-weight: bold;
+    }
+}   
+
+h2{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+h2 b{
+    text-align:center;
+    color: $color-cuatro;
+}
+
+h3{
+    text-align: center;
+    color: $color-cuatro;  
+}
+
+h3 b{
+    color:$color-principal;
+}
+
+.frase{
+        grid-column: 1/4;
+        display: grid;
+        font-size: 18px;    
+        color: $color-cuatro;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        justify-content: center;
+    }
+    
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $color-cuatro;
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 60px;
+    font-family:monospace
+}
+
+.links a{
+    color:$color-tres;
+}
+
+a:hover{
+    cursor: pointer;
+    color: $color-principal
+}
+footer{
+    color: whitesmoke;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+}

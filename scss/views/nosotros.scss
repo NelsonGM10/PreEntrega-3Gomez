@@ -1,0 +1,25 @@
+.nosotros{
+    display: flex;
+    justify-content: center;
+    & .preguntas{
+        background-color:rgb(106, 104, 104);
+        justify-content: center;
+    }
+}
+
+i p{
+text-align: center;
+color: $color-cuatro;
+font-weight: bold;
+}
+
+.pictures{
+    display: flex;
+    justify-content:center;
+    margin: 10px;
+    margin-bottom: 25px;
+    & .cover{
+        width:($imagen-ancho)-197px;
+        height:($imagen-altura)-130px;
+     }
+}
