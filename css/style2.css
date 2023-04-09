@@ -1,5 +1,5 @@
 body {
-  background-image: url(https://i0.wp.com/wallpapercave.com/wp/wp5168380.jpg);
+  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1022/746/desktop-wallpaper-cool-black-and-white-aesthetic-black-and-white-cute-aesthetics.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -7,7 +7,7 @@ body {
 
 .cabecera {
   display: grid;
-  grid-template-columns: 5% 95%;
+  grid-template-columns: 5% 90%;
   margin-bottom: 5px; }
   .cabecera .logo {
     height: 45px;
@@ -22,9 +22,25 @@ body {
     justify-items: center;
     font-size: 23px;
     color: mediumvioletred;
-    padding-right: 100px;
-    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    padding-right: 75px;
+    font-family: 23px;
     font-weight: bold; }
+
+h2 {
+  margin-top: 10px;
+  font-weight: bold; }
+
+h2 b {
+  text-align: center;
+  color: aliceblue; }
+
+h3 {
+  text-align: center;
+  color: aliceblue; }
+
+h3 b {
+  color: mediumvioletred; }
 
 .frase {
   grid-column: 1/4;
@@ -43,7 +59,7 @@ body {
   font-size: 15px;
   width: 100%;
   margin-bottom: 60px;
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: monospace; }
 
 .links a {
   color: black; }
@@ -62,7 +78,7 @@ footer {
   margin-top: 25px;
   margin-bottom: 0px;
   text-align: center;
-  color: #ca0689;
+  color: mediumvioletred;
   font-size: 19px;
   font-weight: bold; }
 
@@ -100,31 +116,34 @@ footer {
       width: 150px;
       flex-direction: row;
       display: flex;
-      justify-content: center; }
-    .containerUno .navegacion .bar {
-      display: flex;
-      height: 200px;
-      width: 270px; }
-  .containerUno .p2 {
+      justify-content: center;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+  .containerUno .bar {
     display: flex;
-    height: 45rem;
-    width: 19rem;
-    color: black;
-    flex-direction: column;
-    font-size: 20px;
-    align-items: center;
-    justify-content: space-evenly; }
-    .containerUno .p2 .pages {
-      color: aliceblue;
-      width: 150px;
-      flex-direction: row;
-      display: flex;
-      justify-content: center; }
-    .containerUno .p2 .bar {
-      display: flex;
-      height: 200px;
-      width: 270px; }
-/* Pagina Bebidas */
+    height: 270px;
+    width: 290px; }
+
+.p2 {
+  display: flex;
+  height: 45rem;
+  width: 19rem;
+  color: black;
+  flex-direction: column;
+  font-size: 20px;
+  align-items: center;
+  justify-content: space-around; }
+  .p2 .pages {
+    color: aliceblue;
+    width: 150px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+  .p2 .bar {
+    display: flex;
+    height: 270px;
+    width: 290px; }
+
 .containerDos {
   display: grid;
   grid-template-columns: 25% 25% 40%;
@@ -168,3 +187,75 @@ footer {
       width: 90%;
       margin-left: 30px;
       height: 410px; }
+
+.row {
+  margin-bottom: 70px; }
+  .row .col-6 {
+    font-size: 10px; }
+    .row .col-6 .cover {
+      height: 270px;
+      width: 290px; }
+  .row .col-6 .musica {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold; }
+  .row .col-6 {
+    font-size: 10px; }
+    .row .col-6 .cover {
+      height: 270px;
+      width: 290px; }
+  .row .col-6 .musica {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold; }
+
+.momentos1 {
+  background-color: #323030;
+  color: whitesmoke; }
+  .momentos1 i {
+    display: flex;
+    justify-content: center; }
+
+.momentos {
+  background-color: mediumvioletred;
+  color: black; }
+  .momentos i {
+    display: flex;
+    justify-content: center; }
+
+.noches {
+  display: flex;
+  justify-content: center;
+  height: 230px; }
+  .noches .fotos {
+    display: flex;
+    height: 260px;
+    width: 270px; }
+
+span p {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 55px; }
+
+.nosotros {
+  display: flex;
+  justify-content: center; }
+  .nosotros .preguntas {
+    background-color: #6a6868;
+    justify-content: center; }
+
+i p {
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold; }
+
+.pictures {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  margin-bottom: 25px; }
+  .pictures .cover {
+    width: 93px;
+    height: 140px; }
