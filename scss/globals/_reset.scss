@@ -3,7 +3,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-size: cover;    
+    background-size: cover; 
 }
 
 .cabecera{
@@ -11,7 +11,7 @@ body{
         grid-template-columns: 5% 90%;
         margin-bottom: 5px;
 .logo{
-        height: 45px;
+        height:$logo;
         display: flex;
         flex-wrap: wrap;
         justify-content: start;
@@ -23,7 +23,7 @@ body{
 .titulo{
         display: grid;
         justify-items: center;
-        font-size: 23px;
+        font-size:$titulo;
         color: $color-principal;
         margin-left: 50px;
         padding-right: 75px;
@@ -54,7 +54,7 @@ h3 b{
 .frase{
         grid-column: 1/4;
         display: grid;
-        font-size: 18px;    
+        font-size:$frase;    
         color: $color-cuatro;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         justify-content: center;
