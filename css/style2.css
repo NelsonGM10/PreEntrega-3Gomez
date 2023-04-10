@@ -1,10 +1,11 @@
+/*formato para todas las paginas*/
 body {
   background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1022/746/desktop-wallpaper-cool-black-and-white-aesthetic-black-and-white-cute-aesthetics.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-size: cover; }
-
+/*header de todas las paginas*/
 .cabecera {
   display: grid;
   grid-template-columns: 5% 90%;
@@ -49,7 +50,7 @@ h3 b {
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   justify-content: center; }
-
+/*formato de barra navegacion para todas las paginas*/
 .links {
   display: flex;
   flex-direction: row;
@@ -67,13 +68,13 @@ h3 b {
 a:hover {
   cursor: pointer;
   color: mediumvioletred; }
-
+/*footer de todas las paginas*/
 footer {
   color: whitesmoke;
   font-size: 15px;
   display: flex;
   justify-content: start; }
-
+/* estilos para pagina de inicio */
 .info {
   margin-top: 25px;
   margin-bottom: 0px;
@@ -143,7 +144,7 @@ footer {
     display: flex;
     height: 270px;
     width: 290px; }
-
+/* estilos para la pagina "Menu Bebidas" */
 .containerDos {
   display: grid;
   grid-template-columns: 25% 25% 40%;
@@ -187,7 +188,7 @@ footer {
       width: 90%;
       margin-left: 30px;
       height: 410px; }
-
+/* estilo bootstrap para la pagina "Nuestra Playlist" */
 .row {
   margin-bottom: 70px; }
   .row .col-6 {
@@ -210,7 +211,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold; }
-
+/* estilos para la pagina "momentos" */
 .momentos1 {
   background-color: #323030;
   color: whitesmoke; }
@@ -238,7 +239,7 @@ span p {
   text-align: center;
   color: aliceblue;
   margin-top: 55px; }
-
+/* estilo para la pagina "WanoUs" */
 .nosotros {
   display: flex;
   justify-content: center; }
