@@ -1,5 +1,6 @@
 body{
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1022/746/desktop-wallpaper-cool-black-and-white-aesthetic-black-and-white-cute-aesthetics.jpg);
+    background: rgb(128,88,125);
+    background: linear-gradient(342deg, rgba(128,88,125,0.7233018207282913) 39%, rgba(4,0,0,1) 48%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -27,7 +28,7 @@ body{
         color: $color-principal;
         margin-left: 50px;
         padding-right: 75px;
-        font-family:$titulo;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-weight: bold;
     }
 }   

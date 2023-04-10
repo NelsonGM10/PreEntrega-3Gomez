@@ -1,11 +1,12 @@
-/*formato para todas las paginas*/
+/*aplica para todas paginas*/
 body {
-  background-image: url(https://e1.pxfuel.com/desktop-wallpaper/1022/746/desktop-wallpaper-cool-black-and-white-aesthetic-black-and-white-cute-aesthetics.jpg);
+  background: #80587d;
+  background: linear-gradient(342deg, rgba(128, 88, 125, 0.723302) 39%, #040000 48%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   background-size: cover; }
-/*header de todas las paginas*/
+
 .cabecera {
   display: grid;
   grid-template-columns: 5% 90%;
@@ -25,7 +26,7 @@ body {
     color: mediumvioletred;
     margin-left: 50px;
     padding-right: 75px;
-    font-family: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold; }
 
 h2 {
@@ -50,7 +51,7 @@ h3 b {
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   justify-content: center; }
-/*formato de barra navegacion para todas las paginas*/
+/*links de navegacion en todas la pasginas*/
 .links {
   display: flex;
   flex-direction: row;
@@ -68,13 +69,13 @@ h3 b {
 a:hover {
   cursor: pointer;
   color: mediumvioletred; }
-/*footer de todas las paginas*/
+/* footer de todas las paginas */
 footer {
   color: whitesmoke;
   font-size: 15px;
   display: flex;
   justify-content: start; }
-/* estilos para pagina de inicio */
+/* pagina de inicio */
 .info {
   margin-top: 25px;
   margin-bottom: 0px;
@@ -144,7 +145,7 @@ footer {
     display: flex;
     height: 270px;
     width: 290px; }
-/* estilos para la pagina "Menu Bebidas" */
+/* pagina de menu bebidas */
 .containerDos {
   display: grid;
   grid-template-columns: 25% 25% 40%;
@@ -188,7 +189,7 @@ footer {
       width: 90%;
       margin-left: 30px;
       height: 410px; }
-/* estilo bootstrap para la pagina "Nuestra Playlist" */
+/* pagina de playlist */
 .row {
   margin-bottom: 70px; }
   .row .col-6 {
@@ -204,6 +205,19 @@ footer {
   .row .col-6 {
     font-size: 10px; }
     .row .col-6 .cover {
+      height: 150px;
+      width: 170px; }
+  .row .col-6 .musica {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold; }
+
+.row {
+  margin-bottom: 70px; }
+  .row .col-6 {
+    font-size: 10px; }
+    .row .col-6 .cover {
       height: 270px;
       width: 290px; }
   .row .col-6 .musica {
@@ -211,7 +225,17 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold; }
-/* estilos para la pagina "momentos" */
+  .row .col-6 {
+    font-size: 10px; }
+    .row .col-6 .cover {
+      height: 150px;
+      width: 170px; }
+  .row .col-12 .musica {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold; }
+/* pagina momentos */
 .momentos1 {
   background-color: #323030;
   color: whitesmoke; }
@@ -239,7 +263,7 @@ span p {
   text-align: center;
   color: aliceblue;
   margin-top: 55px; }
-/* estilo para la pagina "WanoUs" */
+/* pagina nosotros */
 .nosotros {
   display: flex;
   justify-content: center; }
