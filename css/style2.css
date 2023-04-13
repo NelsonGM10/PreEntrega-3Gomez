@@ -1,4 +1,3 @@
-/*aplica para todas paginas*/
 body {
   background: #80587d;
   background: linear-gradient(342deg, rgba(128, 88, 125, 0.723302) 39%, #040000 48%);
@@ -29,9 +28,11 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold; }
 
-h2 {
-  margin-top: 10px;
+header {
   font-weight: bold; }
+
+h2 {
+  margin-top: 10px; }
 
 h2 b {
   text-align: center;
@@ -51,7 +52,7 @@ h3 b {
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   justify-content: center; }
-/*links de navegacion en todas la pasginas*/
+
 .links {
   display: flex;
   flex-direction: row;
@@ -69,13 +70,13 @@ h3 b {
 a:hover {
   cursor: pointer;
   color: mediumvioletred; }
-/* footer de todas las paginas */
+
 footer {
   color: whitesmoke;
   font-size: 15px;
   display: flex;
   justify-content: start; }
-/* pagina de inicio */
+
 .info {
   margin-top: 25px;
   margin-bottom: 0px;
@@ -145,7 +146,7 @@ footer {
     display: flex;
     height: 270px;
     width: 290px; }
-/* pagina de menu bebidas */
+
 .containerDos {
   display: grid;
   grid-template-columns: 25% 25% 40%;
@@ -189,7 +190,10 @@ footer {
       width: 90%;
       margin-left: 30px;
       height: 410px; }
-/* pagina de playlist */
+
+header h2 {
+  font-weight: bold; }
+
 .row {
   margin-bottom: 70px; }
   .row .col-6 {
@@ -235,7 +239,7 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold; }
-/* pagina momentos */
+
 .momentos1 {
   background-color: #323030;
   color: whitesmoke; }
@@ -263,7 +267,7 @@ span p {
   text-align: center;
   color: aliceblue;
   margin-top: 55px; }
-/* pagina nosotros */
+
 .nosotros {
   display: flex;
   justify-content: center; }
