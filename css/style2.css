@@ -1,3 +1,4 @@
+/*estilo para el body de todas las paginas*/
 body {
   background: #80587d;
   background: linear-gradient(342deg, rgba(128, 88, 125, 0.723302) 39%, #040000 48%);
@@ -5,7 +6,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-size: cover; }
-
+/* header de todas la paginas */
 .cabecera {
   display: grid;
   grid-template-columns: 5% 90%;
@@ -49,7 +50,7 @@ h3 b {
   color: aliceblue;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   justify-content: center; }
-
+/* nav para interactuar entre paginas, aplicado en todas las paginas */
 .links {
   display: flex;
   flex-direction: row;
@@ -67,13 +68,13 @@ h3 b {
 a:hover {
   cursor: pointer;
   color: mediumvioletred; }
-
+/* footer para todas las paginas con informacion del lugar */
 footer {
   color: whitesmoke;
   font-size: 15px;
   display: flex;
   justify-content: start; }
-
+/* pagina de inicio */
 .info {
   margin-top: 25px;
   margin-bottom: 0px;
@@ -145,7 +146,7 @@ a {
     display: flex;
     height: 270px;
     width: 290px; }
-
+/* estilo para pagina menu bebidas */
 .containerDos {
   display: grid;
   grid-template-columns: 25% 25% 40%;
@@ -189,7 +190,7 @@ a {
       width: 90%;
       margin-left: 30px;
       height: 410px; }
-
+/* estilos para pagina playlist */
 header h2 {
   font-weight: bold; }
 
@@ -238,7 +239,7 @@ header h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold; }
-
+/* estilos para pagina momentos */
 .momentos1 {
   background-color: #323030;
   color: whitesmoke; }
@@ -266,7 +267,7 @@ span p {
   text-align: center;
   color: aliceblue;
   margin-top: 55px; }
-
+/* estilo para paginas WanoUs */
 .nosotros {
   display: flex;
   justify-content: center; }
